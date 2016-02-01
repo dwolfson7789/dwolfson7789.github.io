@@ -1,0 +1,235 @@
+	@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+  @import url(https://fonts.googleapis.com/css?family=Megrim);
+  @import url(https://fonts.googleapis.com/css?family=Pacifico);
+  
+  h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 1.3em;
+    color: white;
+    padding: 5px;
+    letter-spacing: 3px;
+
+}
+
+  h2 {
+    font-size: 1.3em;
+    font-family: 'Megrim', cursive;
+    padding: 5px;
+
+}
+
+  h3 {
+    color: white;
+    font-size: .9em;
+    display: inline;
+    font-family: 'Megrim', cursive;
+    letter-spacing: 3px;
+
+}
+
+  body {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px; 
+    margin: 0, auto;
+    font-size: .9em;
+
+}
+
+  hr {
+    width: 90%;
+    color: black;
+
+}
+
+  a {
+    font-family: 'Megrim', cursive;
+    text-decoration: none;
+    font-size: .9em;
+    font-style: bold;
+}
+
+  nav a {
+    color: yellow;
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #fff;
+    letter-spacing: 2px;
+
+}  
+
+  a:hover {
+    background-color: black;
+
+}
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.67);
+    width: 100%;
+    height: 39px;
+
+}
+
+  aside p {
+    font-size: 1.1em;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-family: 'Pacifico', cursive;
+}
+
+  aside img {
+    margin: 0 5px 5px 0;
+    width: auto;
+    padding: 2px;
+    height: 200px;
+
+}
+
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
+
+  footer a {
+    color: yellow;
+
+}
+
+  #wrapper {
+    width: 100%;
+
+}
+
+  .hero {
+    width: 100%;
+    height: 600px;
+    background: url("../images/cover.jpg") no-repeat center center scroll;
+    background-size: cover;
+  
+}
+
+  #about {
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    line-height: 35px;
+    letter-spacing: 3px;
+
+}
+
+  #left {
+    padding: 5px;
+
+}
+
+  .column {
+    top: 0;
+    margin: auto;
+    width: 100%;
+
+}
+  #column1 {
+
+
+}
+  #column2 {
+  
+
+}
+  #column3 {
+
+
+}
+
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0; 
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #wrapper {
+    float: none;
+    width: auto;
+
+}
+
+  body {
+    font-size: .85em;
+    letter-spacing: 1px;
+
+}
+
+  aside img {
+    width: auto;
+    height: 10em;
+
+}
+
+  nav a {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: .6em;
+    letter-spacing: 2px;
+
+}
+
+  h1, h2, h3, h4 {
+    text-align: center;
+    font-size: 1.1em;
+
+}
+
+  footer {
+    font-size: .7em;
+    padding: 5px;
+
+
+}
+
+}
+
+@media only screen and (max-width: 480px){
+ 
+  #wrapper {
+    width: auto;
+    float: auto;
+
+}
+
+  body {
+    font-size: .5em;
+
+}
+  
+  nav {
+    display: block;
+
+}
+
+  aside img {
+    width: auto;
+
+}
+
+} 
+
+
+
+
+
+
+
