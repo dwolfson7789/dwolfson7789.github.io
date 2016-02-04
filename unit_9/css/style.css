@@ -8,14 +8,12 @@
     color: white;
     padding: 5px;
     letter-spacing: 3px;
-
 }
 
   h2 {
     font-size: 1.3em;
     font-family: 'Megrim', cursive;
     padding: 5px;
-
 }
 
   h3 {
@@ -24,7 +22,6 @@
     display: inline;
     font-family: 'Megrim', cursive;
     letter-spacing: 3px;
-
 }
 
   body {
@@ -34,13 +31,11 @@
     letter-spacing: 2px; 
     margin: 0, auto;
     font-size: .9em;
-
 }
 
   hr {
     width: 90%;
     color: black;
-
 }
 
   a {
@@ -56,12 +51,10 @@
     padding: 5px 20px;
     border-right: 1px solid #fff;
     letter-spacing: 2px;
-
 }  
 
   a:hover {
     background-color: black;
-
 }
 
   header {
@@ -71,7 +64,6 @@
     background-color: rgba(51, 51, 51, 0.67);
     width: 100%;
     height: 39px;
-
 }
 
   aside p {
@@ -82,11 +74,9 @@
 }
 
   aside img {
-    margin: 0 5px 5px 0;
     width: auto;
-    padding: 2px;
+    padding: 6px;
     height: 200px;
-
 }
 
   footer {
@@ -95,17 +85,14 @@
     background-color: black;
     color: white;
     padding: 5px;
-
 }
 
   footer a {
     color: yellow;
-
 }
 
   #wrapper {
     width: 100%;
-
 }
 
   .hero {
@@ -113,40 +100,25 @@
     height: 600px;
     background: url("../images/cover.jpg") no-repeat center center scroll;
     background-size: cover;
-  
 }
 
   #about {
-    padding: 10px;
+    padding: 8px;
     margin: auto;
     width: 70%;
     line-height: 35px;
     letter-spacing: 3px;
-
-}
-
-  #left {
-    padding: 5px;
-
 }
 
   .column {
+    margin: 0;
     top: 0;
-    margin: auto;
-    width: 100%;
-
+    left: 0;
+    text-align: center;
 }
-  #column1 {
 
-
-}
-  #column2 {
-  
-
-}
-  #column3 {
-
-
+  #social {
+    background-color: white;
 }
 
   .clearfix:after {
@@ -158,24 +130,22 @@
     font-size: 0; 
 }
 
+
 @media only screen and (max-width: 768px) {
   
   #wrapper {
     float: none;
     width: auto;
-
 }
 
   body {
     font-size: .85em;
     letter-spacing: 1px;
-
 }
 
   aside img {
     width: auto;
     height: 10em;
-
 }
 
   nav a {
@@ -184,20 +154,16 @@
     margin: 0;
     font-size: .6em;
     letter-spacing: 2px;
-
 }
 
   h1, h2, h3, h4 {
     text-align: center;
     font-size: 1.1em;
-
 }
 
   footer {
-    font-size: .7em;
+    font-size: .8em;
     padding: 5px;
-
-
 }
 
 }
@@ -207,22 +173,36 @@
   #wrapper {
     width: auto;
     float: auto;
-
 }
 
   body {
     font-size: .5em;
-
 }
   
   nav {
     display: block;
-
 }
 
   aside img {
     width: auto;
+}
 
+  nav a {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: .6em;
+    letter-spacing: 2px;
+}
+
+  h1, h2, h3, h4 {
+    text-align: center;
+    font-size: 1em;
+}
+
+  footer {
+    font-size: .7em;
+    padding: 3px;
 }
 
 } 
